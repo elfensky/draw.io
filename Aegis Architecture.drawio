@@ -1,166 +1,88 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="Page-1" id="1Oac7Z71lYy-FgriB_vH">
-    <mxGraphModel dx="2011" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1906" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-14">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-1" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="675" y="330" />
               <mxPoint x="146" y="330" />
             </Array>
+            <mxPoint x="145.99999999999977" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-64" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SsywpO8GrBJA7lmLfAiP-1">
-          <mxGeometry x="-0.041" y="5" relative="1" as="geometry">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-64" connectable="0" parent="SsywpO8GrBJA7lmLfAiP-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP" vertex="1">
+          <mxGeometry relative="1" x="-0.041" y="5" as="geometry">
             <mxPoint x="11" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-41">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-57" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="675" y="330" />
               <mxPoint x="586" y="330" />
             </Array>
+            <mxPoint x="586" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-51">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-58" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="675" y="330" />
               <mxPoint x="1026" y="330" />
             </Array>
+            <mxPoint x="1026.0000000000005" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-4" value="PostgreSQL 18.1 Server&lt;br&gt;(single K8s statefulset / server with many DBs)&lt;br&gt;______________________________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;client1-db | client2-db | clientX-db | ...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="1">
-          <mxGeometry x="50" y="870" width="1280" height="120" as="geometry" />
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-63" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="170" x="590" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-26" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="50" y="390" width="400" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=5;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-26">
-          <mxGeometry width="400" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-12" value="" style="group" vertex="1" connectable="0" parent="SsywpO8GrBJA7lmLfAiP-26">
-          <mxGeometry x="26" y="50" width="350" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-12" source="SsywpO8GrBJA7lmLfAiP-14" target="SsywpO8GrBJA7lmLfAiP-16">
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-3" edge="1" parent="SsywpO8GrBJA7lmLfAiP-63" source="Ldva4MxQaPnUcS6-rFTP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ldva4MxQaPnUcS6-rFTP-2" value="HTTPS (clientX.aegis.net)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-14" value="client1-nextjs pod&lt;br&gt;(nextjs app)&lt;br&gt;__________________&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- BetterAuth (Entra ID, ...)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Prisma ORM (db access)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- PgBoss (create jobs)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;perimeterSpacing=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-12">
-          <mxGeometry width="140" height="120" as="geometry" />
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-1" parent="SsywpO8GrBJA7lmLfAiP-63" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="internet" vertex="1">
+          <mxGeometry height="40" width="170" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-12" source="SsywpO8GrBJA7lmLfAiP-16" target="SsywpO8GrBJA7lmLfAiP-14">
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-2" parent="SsywpO8GrBJA7lmLfAiP-63" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="ingress/proxy pod&lt;br&gt;(Nginx / Traefik / ...)" vertex="1">
+          <mxGeometry height="60" width="170" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=5;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22group%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22520%22%20width%3D%221360%22%20x%3D%2250%22%20y%3D%22390%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20parent%3D%222%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Dnone%3BfontColor%3D%23ffffff%3BstrokeColor%3D%23001DBC%3BstrokeWidth%3D5%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22520%22%20width%3D%22400%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20connectable%3D%220%22%20parent%3D%222%22%20style%3D%22group%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22350%22%20x%3D%2226%22%20y%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20edge%3D%221%22%20parent%3D%224%22%20source%3D%226%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3B%22%20target%3D%228%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20parent%3D%224%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%230050ef%3BfontColor%3D%23ffffff%3BstrokeColor%3D%23001DBC%3BperimeterSpacing%3D0%3B%22%20value%3D%22client1-nextjs%20pod%26lt%3Bbr%26gt%3B(nextjs%20app)%26lt%3Bbr%26gt%3B__________________%26lt%3Bbr%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3B%26quot%3B%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(255%2C%20255%2C%20255)%2C%20rgb(18%2C%2018%2C%2018))%3B%26quot%3B%26gt%3B-%20BetterAuth%20(Entra%20ID%2C%20...)%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3B-%20Prisma%20ORM%20(db%20access)%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3B-%20PgBoss%20(create%20jobs)%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22140%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20edge%3D%221%22%20parent%3D%224%22%20source%3D%228%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BentryX%3D1%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3B%22%20target%3D%226%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%228%22%20parent%3D%224%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%230050ef%3BfontColor%3D%23ffffff%3BstrokeColor%3D%23001DBC%3Balign%3Dcenter%3B%22%20value%3D%22client1-worker%20pod%26lt%3Bbr%26gt%3B(node%20app%3F%20python%20app%3F%20tbd)%26lt%3Bbr%26gt%3B_______________________%26lt%3Bbr%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(255%2C%20255%2C%20255)%2C%20rgb(18%2C%2018%2C%2018))%3B%26quot%3B%26gt%3B-%20PgBoss%20(access%20jobs)%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(255%2C%20255%2C%20255)%2C%20rgb(18%2C%2018%2C%2018))%3B%26quot%3B%26gt%3B-%20process%20jobs%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22170%22%20x%3D%22180%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%229%22%20parent%3D%222%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20value%3D%22Client1%20k8s%20NameSpace%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%22164%22%20x%3D%22119%22%20y%3D%2210%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2210%22%20parent%3D%222%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%230050ef%3BfontColor%3D%23ffffff%3BstrokeColor%3D%23001DBC%3Balign%3Dcenter%3B%22%20value%3D%22Persistent%20Volume%20Clains%20(PVCs)%26lt%3Bdiv%26gt%3B%2Fuploads%20(for%20evidence%2C%20reports%2C%20files%2C%20...)%20per%20client%20namespace%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22224%22%20x%3D%2240%22%20y%3D%22210%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2211%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%226%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BentryX%3D0.25%3BentryY%3D0%3BentryDx%3D0%3BentryDy%3D0%3B%22%20target%3D%2210%22%20value%3D%22user%20generated%20content%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2212%22%20parent%3D%222%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%230050ef%3BfontColor%3D%23ffffff%3BstrokeColor%3D%23001DBC%3Balign%3Dcenter%3B%22%20value%3D%22PostgreSQL%2018.1%20Server%26lt%3Bbr%26gt%3B(single%20K8s%20statefulset%20%2F%20server%20with%20many%20DBs)%26lt%3Bbr%26gt%3B______________________________________%26lt%3Bbr%26gt%3B%26lt%3Bdiv%20style%3D%26quot%3Btext-align%3A%20left%3B%26quot%3B%26gt%3Bclient1-db%20%7C%20client2-db%20%7C%20clientX-db%20%7C%20...%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22324%22%20x%3D%2226%22%20y%3D%22370%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="380" width="660" x="-310" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="350" x="-24" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-15" edge="1" parent="kM9J-H6gnoDJijd4AQGF-14" source="kM9J-H6gnoDJijd4AQGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kM9J-H6gnoDJijd4AQGF-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-16" value="client1-worker pod&lt;br&gt;(node app? python app? tbd)&lt;br&gt;_______________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- PgBoss (access jobs)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- process jobs&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-12">
-          <mxGeometry x="180" width="170" height="120" as="geometry" />
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-16" parent="kM9J-H6gnoDJijd4AQGF-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;perimeterSpacing=0;" value="client1-nextjs pod&lt;br&gt;(nextjs app)&lt;br&gt;__________________&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- BetterAuth (Entra ID, ...)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Prisma ORM (db access)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- PgBoss (create jobs)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-17" value="Client1 k8s NameSpace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-26">
-          <mxGeometry x="119" y="10" width="164" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-5" value="Persistent Volume Clains (PVCs)&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-26">
-          <mxGeometry x="26" y="210" width="284" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-19" value="user generated content" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-26" source="SsywpO8GrBJA7lmLfAiP-14" target="SsywpO8GrBJA7lmLfAiP-5">
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-17" edge="1" parent="kM9J-H6gnoDJijd4AQGF-14" source="kM9J-H6gnoDJijd4AQGF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kM9J-H6gnoDJijd4AQGF-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-37" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="490" y="390" width="400" height="360" as="geometry" />
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-18" parent="kM9J-H6gnoDJijd4AQGF-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="client1-worker pod&lt;br&gt;(node app? python app? tbd)&lt;br&gt;_______________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- PgBoss (access jobs)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- process jobs&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="180" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=5;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-37">
-          <mxGeometry width="400" height="360" as="geometry" />
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Client1 k8s NameSpace" vertex="1">
+          <mxGeometry height="30" width="164" x="-240" y="414" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-39" value="" style="group" vertex="1" connectable="0" parent="SsywpO8GrBJA7lmLfAiP-37">
-          <mxGeometry x="26" y="50" width="350" height="120" as="geometry" />
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="&lt;div&gt;min.io&lt;br&gt;(write via s3 calls)&lt;br&gt;________________&lt;/div&gt;Persistent Volume Clains (PVCs)&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="224" x="-280" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-39" source="SsywpO8GrBJA7lmLfAiP-41" target="SsywpO8GrBJA7lmLfAiP-43">
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-21" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="kM9J-H6gnoDJijd4AQGF-20" value="user generated content">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-41" value="client2-nextjs pod&lt;br&gt;(nextjs app)&lt;br&gt;__________________&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- BetterAuth (Entra ID, ...)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Prisma ORM (db access)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- PgBoss (create jobs)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;perimeterSpacing=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-39">
-          <mxGeometry width="140" height="120" as="geometry" />
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="PostgreSQL 18.1 Server&lt;br&gt;(single K8s statefulset / server with many DBs)&lt;br&gt;______________________________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;client1-db | client2-db | clientX-db | ...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="346" x="-24" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-39" source="SsywpO8GrBJA7lmLfAiP-43" target="SsywpO8GrBJA7lmLfAiP-41">
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-23" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kM9J-H6gnoDJijd4AQGF-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-43" value="client2-worker pod&lt;br&gt;(node app? python app? tbd)&lt;br&gt;_______________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- PgBoss (access jobs)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- process jobs&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-39">
-          <mxGeometry x="180" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-44" value="Client2 k8s NameSpace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-37">
-          <mxGeometry x="119" y="10" width="164" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-45" value="Persistent Volume Clains (PVCs)&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-37">
-          <mxGeometry x="26" y="210" width="284" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-46" value="user generated content" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-37" source="SsywpO8GrBJA7lmLfAiP-41" target="SsywpO8GrBJA7lmLfAiP-45">
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-24" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kM9J-H6gnoDJijd4AQGF-22">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-47" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="930" y="390" width="400" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=5;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-47">
-          <mxGeometry width="400" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-49" value="" style="group" vertex="1" connectable="0" parent="SsywpO8GrBJA7lmLfAiP-47">
-          <mxGeometry x="26" y="50" width="350" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-49" source="SsywpO8GrBJA7lmLfAiP-51" target="SsywpO8GrBJA7lmLfAiP-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-51" value="clientX-nextjs pod&lt;br&gt;(nextjs app)&lt;br&gt;__________________&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- BetterAuth (Entra ID, ...)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Prisma ORM (db access)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- PgBoss (create jobs)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;perimeterSpacing=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-49">
-          <mxGeometry width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-49" source="SsywpO8GrBJA7lmLfAiP-53" target="SsywpO8GrBJA7lmLfAiP-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-53" value="clientX-worker pod&lt;br&gt;(node app? python app? tbd)&lt;br&gt;_______________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- PgBoss (access jobs)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;- process jobs&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-49">
-          <mxGeometry x="180" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-54" value="ClientX k8s NameSpace" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-47">
-          <mxGeometry x="119" y="10" width="164" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-55" value="Persistent Volume Clains (PVCs)&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="SsywpO8GrBJA7lmLfAiP-47">
-          <mxGeometry x="26" y="210" width="284" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-56" value="user generated content" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-47" source="SsywpO8GrBJA7lmLfAiP-51" target="SsywpO8GrBJA7lmLfAiP-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-59" value="HTTP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-9" target="SsywpO8GrBJA7lmLfAiP-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="820" />
-              <mxPoint x="690" y="820" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-48" target="SsywpO8GrBJA7lmLfAiP-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1130" y="820" />
-              <mxPoint x="690" y="820" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-38" target="SsywpO8GrBJA7lmLfAiP-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="900" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-63" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="590" y="110" width="170" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-3" value="HTTPS (clientX.aegis.net)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SsywpO8GrBJA7lmLfAiP-63" source="Ldva4MxQaPnUcS6-rFTP-1" target="Ldva4MxQaPnUcS6-rFTP-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-1" value="internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="SsywpO8GrBJA7lmLfAiP-63" vertex="1">
-          <mxGeometry width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-2" value="ingress/proxy pod&lt;br&gt;(Nginx / Traefik / ...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="SsywpO8GrBJA7lmLfAiP-63" vertex="1">
-          <mxGeometry y="120" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
