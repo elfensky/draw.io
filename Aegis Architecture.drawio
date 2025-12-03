@@ -1,33 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="1Oac7Z71lYy-FgriB_vH">
-    <mxGraphModel dx="1475" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-3" value="HTTPS (clientX.aegis.net)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ldva4MxQaPnUcS6-rFTP-1" target="Ldva4MxQaPnUcS6-rFTP-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-1" value="internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-          <mxGeometry x="440" y="160" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-14">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675" y="330" />
+              <mxPoint x="146" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsywpO8GrBJA7lmLfAiP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-41">
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="586" y="370" />
-              <mxPoint x="586" y="370" />
+              <mxPoint x="675" y="330" />
+              <mxPoint x="586" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SsywpO8GrBJA7lmLfAiP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldva4MxQaPnUcS6-rFTP-2" target="SsywpO8GrBJA7lmLfAiP-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ldva4MxQaPnUcS6-rFTP-2" value="ingress/proxy pod&lt;br&gt;(Nginx / Traefik / ...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="440" y="280" width="170" height="60" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="330" />
+              <mxPoint x="1026" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SsywpO8GrBJA7lmLfAiP-4" value="PostgreSQL 18.1 Server&lt;br&gt;(single K8s statefulset / server with many DBs)&lt;br&gt;______________________________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;client1-db | client2-db | clientX-db | ...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="1">
           <mxGeometry x="50" y="870" width="1280" height="120" as="geometry" />
@@ -143,6 +143,18 @@
             <mxPoint x="430" y="900" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-63" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="110" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-3" value="HTTPS (clientX.aegis.net)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SsywpO8GrBJA7lmLfAiP-63" source="Ldva4MxQaPnUcS6-rFTP-1" target="Ldva4MxQaPnUcS6-rFTP-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-1" value="internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="SsywpO8GrBJA7lmLfAiP-63" vertex="1">
+          <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldva4MxQaPnUcS6-rFTP-2" value="ingress/proxy pod&lt;br&gt;(Nginx / Traefik / ...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="SsywpO8GrBJA7lmLfAiP-63" vertex="1">
+          <mxGeometry y="120" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
