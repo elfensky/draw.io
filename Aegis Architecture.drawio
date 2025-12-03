@@ -30,7 +30,7 @@
           <mxGeometry x="440" y="280" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsywpO8GrBJA7lmLfAiP-4" value="PostgreSQL 18.1 Server&lt;br&gt;(single K8s statefulset / server with many DBs)&lt;br&gt;______________________________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;client1-db | client2-db | clientX-db | ...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" vertex="1" parent="1">
-          <mxGeometry x="50" y="900" width="760" height="120" as="geometry" />
+          <mxGeometry x="50" y="870" width="1280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="SsywpO8GrBJA7lmLfAiP-26" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="50" y="390" width="400" height="360" as="geometry" />
@@ -121,6 +121,28 @@
         </mxCell>
         <mxCell id="SsywpO8GrBJA7lmLfAiP-56" value="user generated content" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="SsywpO8GrBJA7lmLfAiP-47" source="SsywpO8GrBJA7lmLfAiP-51" target="SsywpO8GrBJA7lmLfAiP-55">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-9" target="SsywpO8GrBJA7lmLfAiP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="820" />
+              <mxPoint x="690" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-48" target="SsywpO8GrBJA7lmLfAiP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="820" />
+              <mxPoint x="690" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SsywpO8GrBJA7lmLfAiP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsywpO8GrBJA7lmLfAiP-38" target="SsywpO8GrBJA7lmLfAiP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="900" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
