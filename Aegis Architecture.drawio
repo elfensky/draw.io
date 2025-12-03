@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
   <diagram name="Page-1" id="1Oac7Z71lYy-FgriB_vH">
-    <mxGraphModel dx="1906" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,10 +69,13 @@
         <mxCell id="kM9J-H6gnoDJijd4AQGF-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Client1 k8s NameSpace" vertex="1">
           <mxGeometry height="30" width="164" x="-240" y="414" as="geometry" />
         </mxCell>
-        <mxCell id="kM9J-H6gnoDJijd4AQGF-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="&lt;div&gt;min.io&lt;br&gt;(write via s3 calls)&lt;br&gt;________________&lt;/div&gt;Persistent Volume Clains (PVCs)&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="&lt;div&gt;PVC&lt;/div&gt;&lt;div&gt;&lt;div&gt;________________&lt;/div&gt;min.io&lt;br&gt;(write via s3 calls)&lt;br&gt;&lt;div&gt;/uploads (for evidence, reports, files, ...) per client namespace&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="224" x="-280" y="490" as="geometry" />
         </mxCell>
         <mxCell id="kM9J-H6gnoDJijd4AQGF-21" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="kM9J-H6gnoDJijd4AQGF-20" value="user generated content">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-27" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kM9J-H6gnoDJijd4AQGF-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kM9J-H6gnoDJijd4AQGF-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="PostgreSQL 18.1 Server&lt;br&gt;(single K8s statefulset / server with many DBs)&lt;br&gt;______________________________________&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;client1-db | client2-db | clientX-db | ...&lt;/div&gt;" vertex="1">
@@ -83,6 +86,9 @@
         </mxCell>
         <mxCell id="kM9J-H6gnoDJijd4AQGF-24" edge="1" parent="1" source="kM9J-H6gnoDJijd4AQGF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kM9J-H6gnoDJijd4AQGF-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kM9J-H6gnoDJijd4AQGF-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;align=center;" value="PVC&lt;br&gt;&lt;div&gt;________________&lt;/div&gt;persistent storage for the db" vertex="1">
+          <mxGeometry height="120" width="190" x="-280" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
